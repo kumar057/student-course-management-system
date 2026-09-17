@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Course Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div>
+      <p class="eyebrow">ACADEMIC MANAGEMENT DASHBOARD</p>
+      <h1>Student Course Management System</h1>
+      <p class="subtitle">A responsive web dashboard built from the MySQL assignment project.</p>
+    </div>
+    <a class="button" href="https://github.com/kumar057/student-course-management-system/blob/main/student_course_management.sql" target="_blank" rel="noreferrer">View SQL Project</a>
+  </header>
+
+  <main class="container">
+    <section class="stats" id="stats"></section>
+    <section class="panel">
+      <div class="toolbar">
+        <div>
+          <h2>Management Data</h2>
+          <p>Explore departments, students, instructors, courses and enrollments.</p>
+        </div>
+        <input id="search" type="search" placeholder="Search current table..." aria-label="Search current table">
+      </div>
+      <nav class="tabs" id="tabs"></nav>
+      <div class="table-wrap"><table><thead id="thead"></thead><tbody id="tbody"></tbody></table></div>
+    </section>
+
+    <section class="panel">
+      <h2>Reports</h2>
+      <p>Summary reports from the sample dataset included in the SQL project.</p>
+      <div class="report-grid" id="reports"></div>
+    </section>
+  </main>
+  <footer>Student Course Management System · MySQL + HTML/CSS/JavaScript</footer>
+  <script src="app.js"></script>
+</body>
+</html>
